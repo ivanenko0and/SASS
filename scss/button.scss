@@ -1,0 +1,18 @@
+
+button{
+    border: chocolate solid 3px;
+    cursor:pointer;
+    
+    &:hover {
+        background-color: chocolate;
+        background-image: none;
+        
+        &::after{
+            content: "Lorem ipsum dolor sit amet.";
+            color:white;
+        }
+
+    }
+    
+}
+
